@@ -34,8 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const li = document.createElement('li');
         li.textContent = `${usuario.dataEnvio} - ${usuario.nome} - ${usuario.email}`;
         const deleteBtn = document.createElement('button');
-        deleteBtn.textContent = 'Excluir';
+        const icon = document.createElement('span');
+        icon.classList.add('material-symbols-rounded');
+        icon.textContent = 'delete';
+
+        deleteBtn.appendChild(icon);
         deleteBtn.classList.add('delete-btn');
+
         deleteBtn.addEventListener('click', function() {
             excluirUsuario(usuario);
         });

@@ -1,0 +1,100 @@
+header {
+    z-index: 4;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    top: 0;
+
+    padding-right: 8%;
+    padding-left: 8%;
+
+    background-color: #365F41;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    height: 5rem;
+    width: auto;
+}
+
+.header_menu {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(235,235,235,1);
+}
+
+.header_menu li {
+    height: 100%;
+    margin-right: 1.5vw;
+    margin-right: 1.5vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu li:hover {
+    background-color: #518860;
+}
+
+.header_login {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    
+    line-height: 22px;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+}
+
+.header_login_text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(235,235,235,1);
+}
+
+.header_login_text span {
+    color: #F798A3;
+}
+
+.register_button {
+    height: 2rem;
+    width: 12vw;
+
+    padding: 0.5rem 1rem 1.9rem 1rem;
+    
+    background: rgb(198,78,99);
+    background: linear-gradient(90deg, rgba(198,78,99,1) 0%, rgba(237,116,145,1) 100%);
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(235,235,235,1);
+    margin-left: .9375rem;
+
+    border-radius: 0.5rem;
+}
+.register_button:hover{
+    background: linear-gradient(90deg,#C64E63 0%, #F798A3 100%);
+}
