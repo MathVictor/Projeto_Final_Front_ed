@@ -1,0 +1,244 @@
+
+ * {
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+button {
+    border: none;
+}
+body {
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    z-index: 4;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    top: 0;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #365F41;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    height: 5rem;
+    width: auto;
+}
+
+.header_menu {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(235, 235, 235, 1);
+}
+
+.header_menu li {
+    height: 100%;
+    margin-right: 1.5vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu li:hover {
+    background-color: #518860;
+}
+
+.header_login {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    line-height: 22px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+}
+
+.header_login_text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(235, 235, 235, 1);
+}
+
+.header_login_text span {
+    color: #F798A3;
+}
+
+.register_button {
+    height: 2rem;
+    width: 12vw;
+    padding: 0.5rem 1rem;
+    background: rgb(198, 78, 99);
+    background: linear-gradient(90deg, rgba(198, 78, 99, 1) 0%, rgba(237, 116, 145, 1) 100%);
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(235, 235, 235, 1);
+    border-radius: 0.5rem;
+}
+
+.container {
+    width: 600px;
+    max-width: 600px;
+    margin: 100px auto 50px;
+    padding: 1.25rem 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.177));
+}
+.txt_input_label{
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+
+}
+
+.txt_input{
+    height: 8vh;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 0.5rem;
+
+    padding-left: 1rem;   
+    filter: drop-shadow(1px 1px 5px #00000034);
+
+    margin-bottom: 1rem;
+
+    font-family: 'Poppins';
+    font-size: 1rem;
+
+    border: none;
+}
+.page-title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+    color: #4CAF50;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.page-subtitle{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #377441
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#cadastrar_bt{
+    margin-top: 3.125rem;
+    text-align: center;
+
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    margin: 1rem 0 2rem 0;
+
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #4A9750 0%, #A5D63F
+    100%);
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(235,235,235,1);
+ 
+}
+
+#cadastrar_bt:hover{
+    background: linear-gradient(90deg, #377441 0%, #64B847    100%);
+}
+#limpar-campos{
+    border-radius: 0.2rem;
+    background: rgb(198,78,99);
+    padding: 0.5rem 1rem;
+    color: rgba(235,235,235,1);
+
+    font-family: 'Poppins';
+    font-weight: 700;
+
+    margin-bottom: 0.625rem;
+}
+
+#limpar-campos:hover{
+    background: #964A65;
+}
+
+
+.user-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.user-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.user-list .delete-btn {
+    background-color: rgb(198,78,99);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.user-list .delete-btn:hover {
+    background-color: #964A65;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#excluir-todos{
+    background: none;
+    font-family: 'Poppins';
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: #964A65;
+}

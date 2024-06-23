@@ -1,0 +1,326 @@
+* {
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.item::before {
+    content: "●";
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 0.01rem;
+    text-align: center;
+    color: #000;
+
+    margin-right: 1rem;
+}
+
+.green_before {
+    margin-left: 2rem;
+    overflow: hidden;
+}
+
+.green_before_title {
+    margin-left: 2rem;
+    overflow: hidden;
+}
+
+.green_before_title::before {
+    z-index: 0;
+    margin-left: -2rem;
+    position: absolute;
+
+    display: flex;
+
+    width: 0.7vw;
+    height: 7%;
+
+    content: ' ';
+    border-radius: 0.2rem;
+    background-color: #4A9750;
+
+    align-items: stretch;
+}
+.green_before::before {
+    z-index: 0;
+    margin-left: -2rem;
+    position: absolute;
+
+    display: flex;
+
+    width: 0.7vw;
+    height: 58%;
+
+    content: ' ';
+    border-radius: 0.2rem;
+    background-color: #4A9750;
+
+    align-items: stretch;
+}
+
+header {
+    z-index: 4;
+
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    top: 0;
+
+    padding-right: 8%;
+    padding-left: 8%;
+
+    background-color: #365F41;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    height: 5rem;
+    width: auto;
+}
+
+.header_menu {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(235,235,235,1);
+}
+
+.header_menu li {
+    height: 100%;
+    margin-right: 1.5vw;
+    margin-right: 1.5vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu li:hover {
+    background-color: #518860;
+}
+
+.header_login {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    
+    line-height: 22px;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+}
+
+.header_login_text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(235,235,235,1);
+}
+
+.header_login_text span {
+    color: #F798A3;
+}
+
+.register_button {
+    height: 2rem;
+    width: 12vw;
+
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    
+    background: rgb(198,78,99);
+    background: linear-gradient(90deg, rgba(198,78,99,1) 0%, rgba(237,116,145,1) 100%);
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(235,235,235,1);
+
+    border-radius: 0.5rem;
+}
+
+.banner {
+    display: flex;
+
+    margin-top: 4rem;
+    padding-left: 10vw;
+
+    height: 100vh;
+    width: 100%;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgb(18, 18, 18) 100%), url("./assets/figs/banner1.jpg") center/cover;
+
+}
+
+.banner_content {
+    width: 45vw;
+}
+
+.banner_title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+    text-align: left;
+    color: rgba(235,235,235,1);
+}
+
+.banner_title span {
+    background: -webkit-linear-gradient(#377441, #C1F235);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section_causas {
+    font-family: 'Poppins';
+    padding: 2rem 6.25rem 0 6.25rem;
+    color: #232B2A;
+}
+#section_causas h2{
+    font-weight: 700;
+    margin-bottom: 3.125rem;
+    font-size: 2.25rem;
+}
+#section_causas p{
+    font-size: 1rem;
+}
+
+#section_impacto h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+}
+#section_impacto {
+    font-family: 'Poppins';
+    padding: 2rem 6.25rem 0 6.25rem;
+}
+
+#section_estudantes {
+    padding: 6.25rem 6.25rem 6rem 6.25rem;
+    width: 100%;
+    height: auto;
+
+
+    font-family: 'Poppins';
+    text-align: left;
+    color: #232B2A;
+}
+
+#section_estudantes h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+
+    margin-bottom: 2.5rem;
+    
+}
+
+.estudantes_parallel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+
+    margin-bottom: 2rem;
+}
+
+.estudantes_parallel p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.estudantes_parallel img {
+    width: 25vw;
+    height: auto;
+}
+
+.basic_list li {
+    position: relative;
+    list-style: none;
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+
+    margin-bottom: 1rem;
+}
+
+.basic_list li span {
+    font-weight: 700;
+}
+
+.estudantes_image_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.estudantes_image_section img {
+    width: 40vw;
+    height: auto;
+}
+
+#sobrenos_banner {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgb(18, 18, 18) 100%), url("./assets/figs/banner2.jpg") center/cover;
+    width: 100%;
+    height: 20rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobrenos_banner h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+    text-align: left;
+    color: #C1F235;
+}
+
+.sobrenos_content {
+    padding: 6.25rem 6.25rem 6rem 6.25rem;
+}
+
+#section_sobrenos p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    color: #000;
+
+    margin-bottom: 3rem;
+}
+
+.sobrenos_title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: left;
+
+    margin-bottom: 2rem;
+}
+

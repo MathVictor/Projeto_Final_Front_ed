@@ -1,0 +1,91 @@
+body{
+    background: #FAFAFA;
+    display: flex;
+}
+header {
+    position: fixed;
+    height: 14.6vw;
+    width: 100%;
+}
+#logo {
+    width: 14.6vw;
+    height: auto;
+}
+
+#login_img {
+    width: 46vw;
+    height: auto;
+}
+
+#main_div {
+    display: flex;
+    font-family: 'Poppins';
+
+    align-items: center;
+}
+
+#login_main_title{
+    text-align: center;
+    margin-bottom: 0.9375rem;
+    font-weight: 600;
+}
+#login_forms{
+    width: 40vw;
+    margin-left: 3.9375rem;
+    background-color: #FFFFFF;
+    padding: 2.1875rem 1.9375rem 2.1875rem 1.9375rem;
+    border-radius: .625rem;
+
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.177));
+}
+#main_info_form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 2.1875rem;
+}
+
+.txt_input{
+    margin-top: 2.1875rem;
+}
+
+.textinpt_label{
+    margin-bottom: .3125rem;
+    font-weight: 400;
+}
+
+#register_text{
+    text-align: center;
+    margin-top: .625rem;
+}
+
+#entrar_bt{
+    margin-top: 3.125rem;
+    text-align: center;
+
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    margin: 2rem 0 2rem 0;
+
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #4A9750 0%, #A5D63F
+    100%);
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(235,235,235,1);
+
+}
+
+.textinpt{
+    height: 8vh;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 0.5rem;
+
+    padding-left: 1rem;   
+    filter: drop-shadow(1px 1px 5px #00000034);
+}
