@@ -7,6 +7,8 @@ Link do Figma: https://www.figma.com/file/FMB8hxQkkrOu3Z8HxBDNSh/Prototipa%C3%A7
 
 Google Drive: https://drive.google.com/drive/folders/1El-Id7WNl6P4OuL1o2ftBU1RzfgOBRm6?usp=sharing
 
+Link do Github Pages: https://mathvictor.github.io/
+
 ## Authors
 
 | Nomes                      | RA      | GitHub |
