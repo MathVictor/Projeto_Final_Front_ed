@@ -5,38 +5,47 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     margin: 0;
+}
 
-    background: url("./assets/figs/register_img.svg");
+header {
+    top: 0%;
+    position: fixed;
+    height: 14.6vw;
+    width: 100%;
+}
+#logo {
+    width: 14.6vw;
+    height: auto;
 }
 
 .container {
+    position: relative;
     background-color: #ffffffa2;
     padding: 20px;
     border-radius: 10px;
-    
+    margin-top: 10rem;
     text-align: center;
 }
-
-h1 {
+.container h1 {
     color: #333;
     margin-bottom: 20px;
 }
 
-form {
+.container form {
     display: flex;
     flex-direction: column;
 }
 
-input {
+.container input {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-button {
+.container button {
     background-color: #1a6a1a;
     color: #fff;
     border: none;
@@ -45,11 +54,20 @@ button {
     cursor: pointer;
 }
 
-a {
+.container form a {
     color: #1a6a1a;
     text-decoration: none;
 }
 
-a:hover {
+.container a:hover {
     text-decoration: underline;
+}
+
+.background_img img{
+    position: absolute;
+    left: 28%;
+    top: 0%;
+    z-index: -1;
+    width: 70vw;
+    height: 100%;
 }

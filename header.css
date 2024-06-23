@@ -1,3 +1,4 @@
+
 header {
     z-index: 4;
     position: fixed;
@@ -38,7 +39,6 @@ header {
 
 .header_menu li {
     height: 100%;
-    margin-right: 1.5vw;
     margin-right: 1.5vw;
     padding-right: 1.5vw;
     padding-left: 1.5vw;
@@ -90,6 +90,7 @@ header {
     font-size: 0.9rem;
     line-height: 22px;
     text-align: center;
+    text-decoration: none;
     color: rgba(235,235,235,1);
     margin-left: .9375rem;
 
